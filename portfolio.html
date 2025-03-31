@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruben CHICHE | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Portfolio/portfolio.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="hvr-underline-from-center">Home</a></li>
+            <li><a href="#about" class="hvr-underline-from-center">About Me</a></li>
+            <li><a href="#projects" class="hvr-underline-from-center">Projects</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="flip-left" data-aos-duration="1000">
+            <h1>Hi, I'm <span class="gradient-text">Ruben CHICHE</span></h1>
+            <p class="hero-subtitle"></p>
+            <p class="hero-subtitle second-line">Student at ORT Daniel Mayer</p>
+            <p class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                Based in Paris
+            </p>
+            <div class="social-links">
+                <a href="https://github.com/Ruben-ch" target="_blank" class="social-icon hvr-float">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <div class="hero-cta">
+                <a href="#projects" class="cta-button scroll-link">View My Work</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="card about-card" data-aos="flip-right" data-aos-duration="1000">
+            <h2 class="section-title">About Me</h2>
+            <p>I am a student in the BTS SIO program, specializing in SISR 
+                (Systems and Networks Infrastructure Solutions). Passionate about technology, 
+                I am gradually developing practical skills in network configuration, server management, 
+                and system security through hands-on projects. My goal is to continue expanding my expertise 
+                to provide effective and secure solutions in the field of IT.</p>
+        </div>
+        <div class="card technologies-card" data-aos="flip-left" data-aos-duration="1000">
+            <h2 class="section-title">Technologies</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <img src="../Portfolio/icones/py.svg" alt="Python">
+                    <span>Python</span>
+                    <div class="tech-description">
+                        Advanced programming language for web development, automation, and data analysis.
+                    </div>
+                </div>
+                <div class="tech-item">
+                    <img src="../Portfolio/icones/java-icon.svg" alt="Java">
+                    <span>Java</span>
+                    <div class="tech-description">
+                        Powerful language for cross-platform applications and enterprise solutions.
+                    </div>
+                </div>
+                <div class="tech-item">
+                    <img src="../Portfolio/icones/js.svg" alt="JavaScript">
+                    <span>JavaScript</span>
+                    <div class="tech-description">
+                        Programming language for creating interactive and dynamic web applications.
+                    </div>
+                </div>
+                <div class="tech-item">
+                    <img src="../Portfolio/icones/html.svg" alt="HTML5">
+                    <span>HTML5</span>
+                    <div class="tech-description">
+                        Markup language for structuring and presenting web content.
+                    </div>
+                </div>
+                <div class="tech-item">
+                    <img src="../Portfolio/icones/css.svg" alt="CSS3">
+                    <span>CSS3</span>
+                    <div class="tech-description">
+                        Style sheet language for designing and formatting web pages.
+                    </div>
+                </div>
+                <div class="tech-item">
+                    <img src="../Portfolio/icones/github.svg" alt="github">
+                    <span>Git</span>
+                    <div class="tech-description">
+                        Version control system for tracking code changes and collaborating with teams.
+                    </div>
+                </div>
+                <div class="tech-item">
+                    <img src="../Portfolio/icones/linux.svg" alt="Linux">
+                    <span>Linux</span>
+                    <div class="tech-description">
+                        Open-source operating system and development environment.
+                    </div>
+                </div>
+                <div class="tech-item">
+                    <img src="../Portfolio/icones/dock.svg" alt="Docker">
+                    <span>Docker</span>
+                    <div class="tech-description">
+                        Platform for developing, shipping, and running applications in containers.
+                    </div>
+                </div>
+                <div class="tech-item">
+                    <img src="../Portfolio/icones/cisco-icon.svg" alt="Cisco">
+                    <span>Cisco</span>
+                    <div class="tech-description">
+                        Cisco is a global leader in networking, security, and cloud solutions.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="card main-card">
+            <h2 class="section-title" data-aos="flip-up" data-aos-duration="800">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="100" onclick="window.open('https://rylena.github.io/Counseltron/', '_blank')">
+                    <img src="assets/counsel.png" alt="Counseltron Logo" class="project-logo">
+                    <h3>test</h3>
+                    <p>Example</p>
+                    <a href="" target="_blank" class="project-link">
+                        View Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true, // animations only happen once
+            offset: 200 // offset (in px) from the original trigger point
+        });
+    </script>
+    <script src="../Portfolio/portfolio.js"></script>
+    <footer>
+        <p>© 2024 Ruben CHICHE.</p>
+    </footer>
+</body>
+</html>     
